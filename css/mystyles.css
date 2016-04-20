@@ -8,10 +8,16 @@
   padding: 0px auto;
 }
 .row-content {
-  margin: 0px auto;
+  margin: 10px auto;
   padding:  20px 20px;
   border-bottom: 1px ridge;
-  min-height: 400px;
+  min-height: 300px;
+}
+.row-carousel {
+  margin: 30px auto;
+  padding:  40px 20px;
+  border-bottom: 1px ridge;
+  min-height: 300px;
 }
 .row-jumbotron h1{
 	padding-left: 30px;
@@ -46,6 +52,9 @@
   min-height: 400px;
   position: absolute;
   top: 0;
+}
+.carousel .item h1{
+	color:#0066ff;
 }
 .navbar{
   margin-top:40px;
